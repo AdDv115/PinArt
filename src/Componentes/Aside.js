@@ -13,7 +13,7 @@ import InfoIcon from '../img/info.png';
 const Aside = () => {
 
     // Estado para el Login
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(true);
     const [showModal, setShowModal] = useState(false);
 
     // Estados para el carrito
